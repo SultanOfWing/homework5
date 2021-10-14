@@ -17,22 +17,6 @@ from sklearn.preprocessing import PolynomialFeatures
 
 df = pd.read_csv('/Users/dmitry/Downloads/true_car_listings_prepeared.csv')
 
-# print(df['Price'].iloc[0])
-# print(df['Price'].loc[0])
-# print(df.set_index('Year').loc[2017].index)
-# ind = (df['Year'] == 2017) & (df['Make'] != 'Volvo')
-# print(df[ind].iloc[range(-1, -10, -1)])
-# non_zero = df[df['Price'] != 0]
-# print(non_zero.non_zero[new['Price'].idxmin()])
-# print(df['City'].describe())
-# print(le.fit_transform(x['City']))
-# df[df['Mileage'].isna() == False]
-# df['Mileage'].isna().sum()
-# le = preprocessing.LabelEncoder()
-# print(le.fit_transform(df['City']))
-# print(df.groupby('City')['Price'].count().sort_values(ascending=False).head())
-# print(df['City'].value_counts().sort_values(ascending=False).head())
-
 year = 2017
 millage = 23405
 make = 11
